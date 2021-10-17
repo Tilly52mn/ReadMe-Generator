@@ -8,13 +8,13 @@ function renderLicenseBadge(license) {
       licenseBadge = ''
       break;
     case 'MIT':
-      licenseBadge = '[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
+      licenseBadge = '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
       break;
     case 'GNU GPLv3':
-      licenseBadge = '[License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
+      licenseBadge = '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
       break;
     case 'Mozilla Public License 2.0':
-      licenseBadge = '[License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)'
+      licenseBadge = '![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)'
       break;
   }
 }
@@ -48,7 +48,8 @@ function renderLicenseSection(license) {
     return ''
   }
   return `
-  ## License<br/>Licensed under the [${license}]${licenseLink} license.`
+  ## License
+  Licensed under the [${license}]${licenseLink} license.`
   
 }
 function renderQuestions(questions){

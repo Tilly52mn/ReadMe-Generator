@@ -1,5 +1,5 @@
 # asdf
-[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Table of Contents
 
 [Description](#Description)<br/>
@@ -28,5 +28,6 @@ asdf
 Email any questions to asdf <br/>
 GitHub Profile [asdf](github.com/asdf)
 
-  ## License<br/>Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+  ## License
+  Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
