@@ -91,7 +91,7 @@ const questions = [{
 },
 {
   type: 'input',
-  name: 'questions',
+  name: 'questionsEmail',
   message: 'What Email should people send thier questions?',
   validate: usageInput => {
     if (usageInput) {
@@ -101,7 +101,21 @@ const questions = [{
       return false;
     }
   }
-}];
+},
+{
+  type: 'input',
+  name: 'questionsGitHub',
+  message: 'What is your Github username?',
+  validate: usageInput => {
+    if (usageInput) {
+      return true;
+    } else {
+      console.log('You need to enter a Github username!');
+      return false;
+    }
+  }
+}
+];
 
 // TODO: Create a function to write README file
 function writeToFile(data) {  

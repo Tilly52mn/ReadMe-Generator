@@ -46,24 +46,28 @@ function renderLicenseSection(license) {
   renderLicenseLink(license);
   if (license ==='No License'){
     return ''
-  }else{
-  return '## License<br/>Licensed under the[${ data.license }]${ licenseLink } license.'
   }
+  return `
+  ## License<br/>Licensed under the [${license}]${licenseLink} license.`
+  
+}
+function renderQuestions(questions){
+
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
- 
+  renderLicenseSection(data.license)
   return `# ${data.title}
 ${licenseBadge}
 ## Table of Contents
 
-*[Description](#Description)
-*[Installation](#Installation)
-*[Usage](#Usage)
-*[Contributing](#Contributing)
-*[Tests](#Tests)
-*[Questions](#Questions)
+[Description](#Description)<br/>
+[Installation](#Installation)<br/>
+[Usage](#Usage)<br/>
+[Contributing](#Contributing)<br/>
+[Tests](#Tests)<br/>
+[Questions](#Questions)<br/>
 
 ## Description
 ${data.description}
@@ -81,8 +85,8 @@ ${data.contribute}
 ${data.tests}
 
 ## Questions
-Email any questions to ${data.questions} 
-
+Email any questions to ${data.questionsEmail} 
+GitHub Profile [${data.questionsGitHub}](github.com/${data.questionsGitHub})
 ${renderLicenseSection(data.license)}
 
 `;
