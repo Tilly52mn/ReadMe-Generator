@@ -10,7 +10,9 @@
 [Questions](#Questions)<br/>
 
 ## Description
-This Project Generates a proffestional README.md file with the answers of a few questions
+This Project Generates a proffestional README.md file with the answers of a few questions.
+See below for a walkthrough video
+[walkthrough](https://watch.screencastify.com/v/Xc7BuiYDsJ0EIfRLP6MR)
 
 ## Installation
 To have this project run properly inquirer must be installed. To install this just run "npm install inquirer" in your terminal in the directory for the application
