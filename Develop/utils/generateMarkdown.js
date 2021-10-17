@@ -47,7 +47,7 @@ function renderLicenseSection(license) {
   if (license ==='No License'){
     return ''
   }else{
-  return '## License/ Licensed under the[${ data.license }]${ licenseLink } license.'
+  return '## License<br/>Licensed under the[${ data.license }]${ licenseLink } license.'
   }
 }
 
