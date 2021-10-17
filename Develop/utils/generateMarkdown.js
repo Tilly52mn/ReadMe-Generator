@@ -77,7 +77,7 @@ ${data.tests}
 Email any questions to ${data.questions} 
 
 ## License
-Licensed under the [${data.license}](${licenseLink}) license.
+Licensed under the [${data.license}]${licenseLink} license.
 
 `;
 }

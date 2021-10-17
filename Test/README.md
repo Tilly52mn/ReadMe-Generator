@@ -1,4 +1,4 @@
-# asdfasdf
+# asdf
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 ## Table of Contents
 
@@ -10,16 +10,16 @@
 *[Questions](#Questions)
 
 ## Description
-asdfasdf
+asdf
 
 ## Installation
-asdfasdf
+asdf
 
 ## Usage
 asdfasdf
 
 ## Contributing
-asdfasdf
+asdf
 
 ## Tests
 asdfasdf
@@ -28,5 +28,5 @@ asdfasdf
 Email any questions to asdfasdf 
 
 ## License
-Licensed under the [MIT]((https://opensource.org/licenses/MIT)) license.
+Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
