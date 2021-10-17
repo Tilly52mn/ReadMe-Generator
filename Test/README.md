@@ -27,5 +27,5 @@ asdf
 ## Questions
 Email any questions to asdf 
 
-## License   Licensed under the[${ data.license }]${ licenseLink } license.
+## License/ Licensed under the[${ data.license }]${ licenseLink } license.
 
