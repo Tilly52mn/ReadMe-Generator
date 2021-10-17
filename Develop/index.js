@@ -43,8 +43,8 @@ const questions = [{
   }
 },
 {
-  type: 'contribute',
-  name: 'usage',
+  type: 'input',
+  name: 'contribute',
   message: 'Enter who contributed to your application.',
   validate: usageInput => {
     if (usageInput) {
@@ -72,7 +72,7 @@ const questions = [{
   type: 'list',
   name: 'license',
   message: 'What license does the application have?',
-  choices: ['MIT', 'GNU GPLv3', 'Mozilla Public License 2.0'],
+  choices: ['MIT', 'GNU GPLv3', 'Mozilla Public License 2.0', 'No License'],
   default: false
 },
 {
