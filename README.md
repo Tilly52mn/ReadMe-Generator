@@ -10,8 +10,8 @@
 [Questions](#Questions)<br/>
 
 ## Description
-This Project Generates a proffestional README.md file with the answers of a few questions.
-See below for a walkthrough video
+This Project Generates a proffestional README.md file with the answers of a few questions.<br/>
+See the below link for a walkthrough video<br/>
 [walkthrough](https://watch.screencastify.com/v/Xc7BuiYDsJ0EIfRLP6MR)
 
 ## Installation
